@@ -1,35 +1,43 @@
+/* Set the width and center align the container */
 .container {
   width: 70%;
   margin: auto;
   text-align: center;
 }
 
+/* Center align and display the dice inline */
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
+/* Styling for the button */
 .button {
   background-color: crimson;
   border-radius: 5px;
   padding: 15px;
 }
 
+/* Styling for the image container */
 .imgContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* Center align and display elements as flex */
 div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* Set the background color of the body */
 body {
   background-color: #393E46;
 }
 
+/* Styling for the heading */
 h1 {
   display: block;
   margin: 30px;
@@ -39,20 +47,55 @@ h1 {
   color: #4ECCA3;
 }
 
+/* Styling for paragraphs */
 p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
+/* Set the width of images */
 img {
   width: 80%;
 }
 
+/* Styling for the footer */
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
+
+/* Styling for the scrollbars */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+/* Styling for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#FFFFFF, #6284FF, #FF0000);
+  border-radius: 100px;
+}
+
+/* Set the background gradient for the body */
+body {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+/* Animation for the background gradients */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
